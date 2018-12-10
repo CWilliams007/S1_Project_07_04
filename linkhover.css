@@ -20,7 +20,7 @@ Purpose: To simplify the editing of the dropdown menu's CSS and to seperate it f
 }
 
 .dropbtn {
-    background-color: red;
+    background-color: rgb(0, 64, 128);
     color: white;
     padding: 16px;
     font-size: 16px;
