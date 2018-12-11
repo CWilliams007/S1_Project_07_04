@@ -10,22 +10,27 @@
           Jersey Buoys home page
           Author: Chad Williams
           Date:   12.4.18
+          Note: Late due to missing a week, required extra time.
       
           Filename: jb_home.html
          -->
 
       <title>Jersey Buoys Surfing School</title>
       <link rel="stylesheet" href="jb_styles.css">
+      <!-- Link hover style sheet, easier to organize for me, sets everything up for dropdown navbar. -->
       <link rel="stylesheet" href="linkhover.css">
 </head>
 
 <body>
       <header>
+            <!-- Top Promo Bar offering deals -->
             <div id="promotionbar">
                   <a href="#">$25 Off Surf Camp</a>
                   <a href="#">THRU JAN 21-MAR 30</a>
             </div>
+            <!-- Begin navbar -->
             <div id="navbar">
+                  <!-- Main logo for Jersey Boys is first in the order using a empty div, setting height and background image -->
                   <div id="mainlogo">
                   </div>
 
@@ -35,7 +40,7 @@
                   </div>
                   <!-- Div encases dropdown button -->
                   <div class="dropdown" class="sticky">
-                        <!-- Button with class of dropbtn displays Buying -->
+                        <!-- Button with class of dropbtn displays Classes -->
                         <button class="dropbtn"><a href="#">Classes <b class="caret"></b></a></button>
                         <!-- Div encasing dropdown button links -->
                         <div class="dropdown-content">
@@ -78,13 +83,16 @@
             </div>
       </header>
 
-
+      <!-- Empty Div for Banner under nav using background image -->
       <div id="image">
-
       </div>
+
+      <!-- Main Content div holding the 3 main sections of content -->
       <div id="maincontent">
+            <!-- Left side of content, slang -->
             <aside class="left">
                   <h2>Surfer Slang</h2>
+                  <!-- Seperate divs for each new term to easier organize and set styles. -->
                   <div class="slang">
                         <b>Barney</b>
                         <br>
@@ -131,6 +139,7 @@
                         A collection of surfboards</div>
 
             </aside>
+            <!-- Middle content, intro -->
             <div class="intro">
                   <h1>Welcome</h1>
                   <p>
@@ -152,15 +161,14 @@
                         appointment, grab a board from the quiver and head to the Green Room.
                   </p>
             </div>
-
-
+            <!-- Right content, buy now div using background image and a link inside placed ontop -->
             <a href="#" class="right">
                   <a class="buynow" href="#">Buy Now</a>
             </a>
       </div>
 
 
-
+      <!-- Footer containing fake copyright placeholder -->
       <footer>
             <address>
                   @2018 Copryright, All Rights Reserved
